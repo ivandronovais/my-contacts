@@ -39,7 +39,9 @@ TextField{
   -fx-background-position: 240px;
   -fx-background-insets: 0;
 }
-
+.button:hover {
+  -fx-cursor: hand;
+}
 #buttonRemover, #buttonAdicionar{
   -fx-background-size: 30px;
   -fx-background-repeat: no-repeat;
