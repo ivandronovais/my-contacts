@@ -43,7 +43,7 @@ Siga as instruções abaixo para executar o projeto em seu ambiente local:
 4. **Na sua IDE, adicione as libs do JavaFX ao projeto:**
    VSCode:
 
-   Em "Referenced Libraries", importe todos os arquivos dentro de "\lib" do arquivo do JavaFX baixado
+   Em **"Referenced Libraries"**, importe todos os arquivos dentro de **"\lib"** do arquivo do JavaFX baixado
 
 5. **Modifique o arquivo json:**
     Com o arquivo **"Principal.java"** aberto, clique em **"Run"**, depois **"Add Configuration"** e adicione ao arquivo json::
