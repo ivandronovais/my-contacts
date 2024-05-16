@@ -1,0 +1,88 @@
+AnchorPane {
+  -fx-background-radius: 18 5 18 18;
+  -fx-border-radius: 18 18 18 18;
+}
+ToolBar{
+  -fx-spacing: 2px;
+  -fx-background-color: #e0e0e0 ;
+}
+ToolBar .button{
+  -fx-background-size: 16px;
+  -fx-background-repeat: no-repeat;
+  -fx-background-color: transparent;
+  -fx-background-insets: 0;
+}
+ToolBar #buttonFechar{
+  -fx-background-image: url("../img/btnRed.png"); 
+} 
+ToolBar .button:hover{
+  -fx-opacity: 30%;
+}
+ToolBar #buttonMinimizar{
+  -fx-background-image: url("../img/btnOrange.png");
+}
+ToolBar #buttonMaximizar{
+  -fx-background-image: url("../img/btnGreen.png");
+}
+TextField{
+  -fx-background-color: transparent;
+  -fx-border-radius: 20px;
+  -fx-background-radius: 20 20 20 20;
+  -fx-border-color: #609;
+  -fx-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  -fx-font-weight: bold;
+}
+#pesquisaTextField{
+  -fx-background-image:url("../img/search.png");
+  -fx-background-size: 15px;
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: 240px;
+  -fx-background-insets: 0;
+}
+
+#buttonRemover, #buttonAdicionar{
+  -fx-background-size: 30px;
+  -fx-background-repeat: no-repeat;
+  -fx-background-color: transparent;
+}
+#buttonRemover{
+  -fx-background-image: url("../img/btnRemove.png");
+}
+#buttonAdicionar{
+  -fx-background-image: url("../img/btnAdicionar.png");
+}
+#buttonRemover:hover{
+  -fx-background-size: 32px;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+}
+#buttonAdicionar:hover{
+  -fx-background-size: 32px;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+}
+#tableViewContatos{
+  -fx-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -fx-background-insets: 0;
+  -fx-padding: 0;
+}
+#buttonsRow{
+  -fx-background-color: #609;
+  -fx-background: #609;
+}
+#tableViewContatos .table-column {
+  -fx-alignment: center;
+  -fx-font-weight: bolder;
+  -fx-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.table-view .column-header,
+.table-view .column-header-background .filler {
+  -fx-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  -fx-background-color:#ad9ceb;
+  -fx-alignment: center;
+  -fx-font-weight: bold;
+}
+.table-view .column-header .label{
+   -fx-text-fill: white;
+   -fx-font-weight: bolder;
+   -fx-font-family: 'Lucida Sans', 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
+   -fx-font-size: large;
+}
