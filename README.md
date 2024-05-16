@@ -1,6 +1,6 @@
 ## 🎉 **Bem-vindo (a) ao My Contacts** 🚀
 
-Este app é uma simples e intuitiva agenda telefônica
+Este app é uma simples e intuitiva agenda telefônica que utiliza o JavaFX como GUI.
 
 ## ℹ️ Sobre o Projeto
 
