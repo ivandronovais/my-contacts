@@ -2,7 +2,7 @@
 
 Este app é uma simples e intuitiva agenda telefônica que utiliza o JavaFX como GUI.
 
-## Capturas de Tela 🖼️
+## 🖼️ Capturas de Tela
 <div>
    <img src="https://github.com/ivandronovais/my-contacts/assets/94018520/1733f096-8266-4e41-9f14-a85b87928e92" width="400px;" alt="Adicionar de contatos"/>
    <img src="https://github.com/ivandronovais/my-contacts/assets/94018520/7e18172b-e79c-4f05-a6cd-653c8674f9fa" width="400px;" alt="Adicionar de contatos"/> 
