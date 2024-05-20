@@ -31,7 +31,7 @@ Siga as instruções abaixo para executar o projeto em seu ambiente local:
 1. **Clone o repositório:**
 
    ```
-   git clone https://github.com/ivnovais/my-contacts
+   git clone https://github.com/ivandronovais/my-contacts
    ```
 
 2. **Navegue até o diretório do projeto:**
